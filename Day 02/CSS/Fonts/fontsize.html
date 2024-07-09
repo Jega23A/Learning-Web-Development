@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Font Size</title>
+</head>
+<body>
+	<h2>Font Size with Pixels:</h2>
+	<p>Setting the text size with pixels gives you full control over the text size:</p>
+	<style>
+		h1{
+			font-size:40px;
+		}
+		h2{
+			font-size:30px;
+		}
+		p{
+			font-size:14px;
+		}
+	</style>
+	<h1>This is heading 1</h1>
+	<h2>This is heading 2</h2>
+	<p>This is a paragraph.</p>
+	<p>This is another paragraph.</p>
+	<h2>Font Size with Em:</h2>
+	<p>To allow users to resize the text (in browser menu),many developers use em instead of pixels.<br>1em is equal to the current font size.The default text size in browsers is 16px. So,the default size of 1em is 16px.<br>The size can be calculated from pixels to em using this formula: 'pixels/16=em'.</p>
+	<style>
+		h1{
+			font-size:2.5em; /* 40px/16=2.5em */
+		}
+		h2{
+			font-size:1.875em; /* 30px/16=1.875em */
+		}
+		p{
+			font-size:0.875em; /* 14px/16=0.875em */
+		}
+	</style>
+	<h1>This is heading 1</h1>
+	<h2>This is heading 2</h2>
+	<p>This is a paragraph.</p>
+	<p>Specifying the font-size in em allows all major browsers to resize the text.Unfortunately,there is still a problem with older versions of IE.When resizing the text,it becomes larger/smaller than it should.</p>
+</body>
+</html>
