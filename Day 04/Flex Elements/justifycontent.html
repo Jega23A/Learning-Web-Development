@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>justify-content</title>
+</head>
+<body>
+	<style>
+		.flex-container{
+			display: flex;
+			justify-content: center;
+			background-color: dodgerblue;
+		}
+		.flex-container> div{
+			background-color: #f1f1f1;
+			width: 100px;
+			margin: 10px;
+			text-align: center;
+			line-height: 75px;
+			font-size: 30px;
+		}
+	</style>
+	<h1>The justify-content property</h1>
+	<p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+	<div class="flex-container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+	<p>The 'justify-content' property is used to align the flex items.<br>The center value aligns the flex items at the center of the container.<br></br>The other justify-content properties are 'flex-start', 'flex-end', 'space-around', 'space-between'.</p>
+</body>
+</html>

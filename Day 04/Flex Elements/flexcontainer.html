@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flex box</title>
+</head>
+<body>
+	<style>
+		.flex-container{
+			display: flex;
+			background-color: dodgerblue;
+		}
+		.flex-container> div{
+			background-color: #f1f1f1;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+		}
+	</style>
+	<h1>Create a Flex Container</h1>
+	<div class="flex-container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+	<p>A Flexible layout must have a parent element with the <em>display</em> proprty set to <em>flex</em>.</p>
+	<p>Direct child elements of the flexible container automatically becomes flexible items.</p>
+</body>
+</html>

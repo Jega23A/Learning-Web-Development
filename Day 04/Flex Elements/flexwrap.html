@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flex-wrap</title>
+</head>
+<body>
+	<p>The 'flex-wrap' property specifies whether the flex items should wrap or not.<br>The example below have 12 flex items,to better demonstrate the 'flex-wrap' property.</p>
+	<style>
+		.flex-container{
+			display: flex;
+			flex-wrap: wrap;
+			background-color: dodgerblue;
+		}
+		.flex-container> div{
+			background-color: #f1f1f1;
+			width: 100px;
+			margin: 10px;
+			text-align: center;
+			line-height: 75px;
+			font-size: 30px;
+		}
+	</style>
+	<h1>The flex-wrap property</h1>
+	<p>The "flex-wrap: wrap;" specifies that the flex items will wrap if necessary:</p>
+	<div class="flex-container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+		<div>9</div>
+		<div>10</div>
+		<div>11</div>
+		<div>12</div>
+	</div>
+	<p>Try resizing the browser window</p>
+	<p>Other 'flex-wrap' properties are 'nowrap' and 'wrap-reverse'.</p>
+</body>
+</html>

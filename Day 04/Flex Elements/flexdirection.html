@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>flex-direction</title>
+</head>
+<body>
+	<style>
+		.flex-container{
+			display: flex;
+			flex-direction: column;
+			background-color: dodgerblue;
+		}
+		.flex-container> div{
+			background-color: #f1f1f1;
+			width: 100px;
+			margin: 10px;
+			text-align: center;
+			line-height: 75px;
+			font-size: 30px;
+		}
+	</style>
+	<h1>The flex-direction property</h1>
+	<p>The "flex-direction: column;" stacks the flex items vertically (from top to bottom):</p>
+	<div class="flex-container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+	<p>The other flex-direction properties are 'column-reverse', 'row', 'row-reverse'.</p>
+</body>
+</html>
