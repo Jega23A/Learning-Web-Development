@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>grid lines</title>
+</head>
+<body>
+	<style> 
+		.grid-container{
+			display: grid;
+			grid-template-columns: 80px 200px auto 30px;
+			grid-template-rows: 80px 200px;
+			gap: 10px;
+			background-color: #2196F3;
+			padding: 10px;
+		}
+		.grid-container > div{
+			background-color: rgba(255, 255, 255, 0.8);
+			border: 1px solid black;
+			text-align: center;
+			font-size: 30px;
+		}
+	</style>
+	<h1>Grid Container</h1>
+	<h2>grid-template-rows and column property</h2>
+	<p>A Grid Container consist of grid items arranged in columns and rows</p>
+	<div class="grid-container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<div>8</div>
+	</div>
+	<p>Direct child element(s) of the grid container automatically becomes grid items.</p><br>
+	<p>The 'grid-template-columns' property defines the number of rows and columns in your grid layout,and it can define the width of each row and column.</p><br>
+	<p>The value is a space-seperated-list, where each value defines the width of the respective row and column.</p>
+</body>
+</html>
