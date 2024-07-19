@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Map Method</title>
+</head>
+<body>
+	<h1>Javascript Maps</h1>
+	<h2>The new Map Method</h2>
+	<p>Creating a map from an array:</p>
+	<p id="demo"></p>
+	<script> 
+		//Create a Map
+		const fruits = new Map([
+			["apples",500],
+			["bananas",300],
+			["oranges",200],
+			]);
+		let numb = fruits.get("apples");
+		document.getElementById("demo").innerHTML="There are"+numb+"apples.";
+	</script>
+	<b>Explaination:</b>
+	<p>You can create a map by passing an array to the 'new Map()' constructor.</p>
+	<p>The other methods are 'Map.get()', 'Map.set()', 'Map.size', 'Map.delete()', 'Map.clear()', 'Map.has()' etc..</p>
+</body>
+</html>
