@@ -1,0 +1,28 @@
+/* Style the header */
+h1 {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the main content area */
+main {
+  padding: 20px;
+}
+
+/* Style the button */
+button {
+  background-color: lightgreen;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
