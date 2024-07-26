@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Creating JavaScript Objects</h1>
+<h2>Using an Object Literal</h2>
+<p><b>Example:</b><br>
+Create an empty JavaScript object using {}, and add 4 properties:</p>
+
+<p id="demo"></p>
+
+<script>
+// Create an empty Object
+const person = {};
+
+// Add Properties
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue"; 
+
+// Display Data from Object
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+<p><b>JavaScript Object Literal:</b><br>
+An object literal is a list of property names:values inside curly braces {}.<br>
+{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};<br><br>
+<b>Methods for Defining JavaScript Objects:</b><br>
+Using an Object Literal<br>
+Using the new Keyword<br>
+Using an Object Constructor<br>
+Using Object.assign()<br>
+Using Object.create()<br>
+Using Object.fromEnties()</p>
+</body>
+</html>
