@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fruit Showcase</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .container {
+    padding: 80px 120px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+    .bg-1 { 
+    background-color: #1abc9c;
+    color: #ffffff;
+  }
+  </style>
+</head>
+<body>
+
+<div class="bg-1">
+  <div class="container text-center">
+    <h3>The Fruit Showcase</h3>
+    <img src="fruit.jpg" class="img-circle" alt="Fruit" width="150" height="150">
+    <p><em>We love Fruits!!!</em></p>
+    <p>We have created a user friendly showcase web page..</p>
+  </div>
+</div>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Mango</strong></p><br>
+      <img src="mango.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+          <button onclick="myFunction1()">Enter</button>
+      <script>
+        function myFunction1(){
+          window.open("mango.html");
+        }
+      </script>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Banana</strong></p><br>
+      <img src="banana.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      <button onclick="myFunction2()">Enter</button>
+      <script>
+        function myFunction2(){
+          window.open("banana.html");
+        }
+      </script>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Apple</strong></p><br>
+      <img src="apple.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+          <button onclick="myFunction3()">Enter</button>
+      <script>
+        function myFunction3(){
+          window.open("apple.html");
+        }
+      </script>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Grape</strong></p><br>
+      <img src="grape.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+          <button onclick="myFunction4()">Enter</button>
+      <script>
+        function myFunction4(){
+          window.open("grape.html");
+        }
+      </script>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Dragon Fruit</strong></p><br>
+      <img src="dragonfruit.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+          <button onclick="myFunction5()">Enter</button>
+      <script>
+        function myFunction5(){
+          window.open("dragon.html");
+        }
+      </script>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Orange</strong></p><br>
+      <img src="orange.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+          <button onclick="myFunction6()">Enter</button>
+      <script>
+        function myFunction6(){
+          window.open("orange.html");
+        }
+      </script>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
